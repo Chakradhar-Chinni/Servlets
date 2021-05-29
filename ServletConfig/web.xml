@@ -1,0 +1,28 @@
+<web-app>
+
+  <servlet>
+            <servlet-name>abc</servlet-name>
+            <servlet-class>com.servlets.AddServlet</servlet-class>
+  	
+            <init-param>
+                <param-name>database</param-name>
+                <param-value>MongoDB</param-value>
+            </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+            <servlet-name>abc</servlet-name>
+            <url-pattern>/add</url-pattern>
+  </servlet-mapping> 
+  
+  <context-param>
+      <param-name>database</param-name>
+      <param-value>MySQL</param-value>
+	</context-param> 
+	
+	<context-param>
+			<param-name>Type</param-name>
+			<param-value>Relational Database Management</param-value>
+	</context-param>
+  
+</web-app>
