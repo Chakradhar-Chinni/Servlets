@@ -15,7 +15,7 @@ public class BServlet extends HttpServlet
 		HttpSession session = req.getSession();
 		PrintWriter out = res.getWriter();      
 		
-		int a = (int) session.getAttribute("a");
+		int a = (int) session.getAttribute("a"); 		//Data will be fetched in object format, so we typecast the object data to required datatype
 		int b = (int) session.getAttribute("b");
 		int c = (int) session.getAttribute("c");
                                      
