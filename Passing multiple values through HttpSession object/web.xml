@@ -1,0 +1,23 @@
+<web-app>
+    <servlet>
+        <servlet-name>abc</servlet-name>
+        <servlet-class>com.servlets.AServlet</servlet-class>
+      </servlet>
+
+      <servlet-mapping>
+      <servlet-name>abc</servlet-name>
+      <url-pattern>/add</url-pattern>
+      </servlet-mapping>
+
+
+       <servlet>
+          <servlet-name>pqr</servlet-name>
+          <servlet-class>com.servlets.BServlet</servlet-class>
+        </servlet>
+
+
+      <servlet-mapping>
+        <servlet-name>pqr</servlet-name>
+        <url-pattern>/bservlet</url-pattern>
+      </servlet-mapping>
+  </web-app>
