@@ -18,11 +18,11 @@
   <context-param>
       <param-name>database</param-name>
       <param-value>MySQL</param-value>
-	</context-param> 
-	
-	<context-param>
-			<param-name>Type</param-name>
-			<param-value>Relational Database Management</param-value>
-	</context-param>
+  </context-param> 
+  	
+  <context-param>
+      <param-name>Type</param-name>
+      <param-value>Relational Database Management</param-value>
+  </context-param>
   
 </web-app>
