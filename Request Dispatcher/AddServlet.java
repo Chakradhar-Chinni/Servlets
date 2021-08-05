@@ -29,3 +29,7 @@ public class AddServlet extends HttpServlet
 		}
 
 	}
+/*
+while using RequestDispatcher we use setAttribute and getAttribute
+while using sendRedirect we use req & res objects
+*/
